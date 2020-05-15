@@ -1,2 +1,5 @@
 pip install rich
 pip install PyInquirer
+
+pyinquirer~=1.0.3
+rich~=1.1.4
