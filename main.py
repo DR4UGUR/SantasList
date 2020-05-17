@@ -1,9 +1,9 @@
 from PyInquirer import prompt
 from rich.console import Console
 from startup import startup
-import questions
+import supplements
 console = Console()
 startup()
 
-answers = prompt(questions.questions)
+answers = prompt(supplements.questions)
 console.print(answers)
