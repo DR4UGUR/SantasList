@@ -1,6 +1,18 @@
 import supplements
 
 
+def possible_permutations(wordlist):
+    count = 1
+    endcount = 0
+    for i in wordlist:
+        for j in i:
+            if j in supplements.characterswap:
+                count *= len(supplements.characterswap[j]) + 1
+        endcount += count
+        count = 1
+    return endcount
+
+
 def letter_replacement(word, index):
     templist = []
     if word[index] in supplements.characterswap:
@@ -43,8 +55,3 @@ def word_jam(list1, list2):
             templist.append(i + j)
     return templist
 
-
-theWord = "Luella"
-x = word_replacement(theWord)
-print(len(x))
-make_dict(word_replacement("Luella"))
