@@ -5,7 +5,8 @@ console = Console()
 
 def startup():
     console.print(r"""
-
+    Santas List is made by DR4UGUR and is available at https://github.com/DR4UGUR/SantasList
+    
 
      _____             _              _     _     _   
     /  ___|           | |            | |   (_)   | |  
@@ -17,10 +18,12 @@ def startup():
 
                                                       """)
     console.print(
-        "Welcome to [red] Santas List [/] of naughty passwords. I will ask you a few questions about the target "
-        "and then make a dictionary of passwords using all the information I have. [underline]Leave the "
+        "Welcome to [red]Santas List[/] of naughty passwords. I will ask you a few questions about the target "
+        "and then make a dictionary of passwords using all the information I have. [underline]Leave any "
         "information you dont have blank[/] "
     )
+    console.print("The dictionary will be saved in [underline] this directory [/] and it will have the name "
+                  "\"dictionary.txt\"")
     console.print(r"""
 
 

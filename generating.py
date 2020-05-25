@@ -54,4 +54,3 @@ def word_jam(list1, list2):
         for j in list2:
             templist.append(i + j)
     return templist
-

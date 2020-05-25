@@ -31,11 +31,6 @@ questions = [
     },
     {
         "type": "input",
-        "name": "last_name",
-        "message": "What is the targets last name",
-    },
-    {
-        "type": "input",
         "name": "favorite_food",
         "message": "What is the targets favorite food",
     },
@@ -43,11 +38,6 @@ questions = [
         "type": "input",
         "name": "favorite_vacation",
         "message": "What is the targets favorite vacation location",
-    },
-    {
-        "type": "input",
-        "name": "last_name",
-        "message": "What is the targets last name",
     },
     {
         "type": "input",
@@ -78,11 +68,6 @@ questions = [
         "type": "input",
         "name": "website_name",
         "message": "What is the website the hash is from",
-    },
-    {
-        "type": "input",
-        "name": "so_last_name",
-        "message": "What is the targets significant others last name",
     },
     {
         "type": "input",
