@@ -9,3 +9,7 @@ Santas List has powerful letter-replacing. For example it turns the name "Mike" 
 This program is for security researchers needing a powerful and reliable way to create dictionaries to crack password hashes
 ## What features are still to come?
 Better performance, more questions, more permutations and much more!
+
+
+### Personal comments
+This is my first bigger programming project. It is also the first time I'm using a proper IDE as well as Git and Github so forgive me for mistakes that will inevitably happen. I'm working on the project as much as I can and will keep working on it until there are no more features to add.
