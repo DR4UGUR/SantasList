@@ -54,3 +54,9 @@ def word_jam(list1, list2):
         for j in list2:
             templist.append(i + j)
     return templist
+
+
+def possible_word_jam_permutations(word1, word2):
+    list1 = [word1]
+    list2 = [word2]
+    return possible_permutations(list1)*possible_permutations(list2)

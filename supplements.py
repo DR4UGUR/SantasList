@@ -12,7 +12,7 @@ questions = [
     {
         "type": "input",
         "name": "birthday",
-        "message": "What is the targets birthday (DD/MM/YYYY)",
+        "message": "What is the targets birthday (DDMMYYYY or MMDDYYYY)",
     },
     {
         "type": "input",
